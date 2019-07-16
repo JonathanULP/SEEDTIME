@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/inicioItem"
+        android:title="Inicio"
+        android:icon="@drawable/inicio_ic">
+
+    </item>
+
+    <item
+        android:id="@+id/plantasItem"
+        android:title="@string/plantas"
+        android:icon="@drawable/planta_ic"
+        >
+    </item>
+
+    <item
+        android:id="@+id/controlitem"
+        android:title="Control de vivero"
+        android:icon="@drawable/control_ic">
+
+    </item>
+
+
+
+    <item
+        android:id="@+id/ConfiguracionItem"
+        android:title="Configuracion"
+        android:icon="@drawable/ic_tuerca">
+    </item>
+
+    <item
+        android:id="@+id/contactoItem"
+        android:title="@string/contacto"
+        android:icon="@drawable/contacto_ic"
+        >
+    </item>
+
+
+
+</menu>

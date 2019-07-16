@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/tipodeestado"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Titulo"
+                android:textColor="#f1f4f1"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor esperado"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#2c9f1a"
+                android:fontFamily="sans-serif-smallcaps"
+                android:id="@+id/titulovaloresperado"
+
+                />
+
+            <EditText
+                android:id="@+id/valordeestado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="8"
+                android:textColor="#f9f5f5"
+                android:enabled="false"/>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Valor en tiempo real"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#2c9f1a"
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/titulovalorreal"
+
+            />
+
+        <EditText
+            android:id="@+id/valorentimereal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:text="0"
+            android:textColor="#f9f5f5"
+            android:enabled="false"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="+"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b1abab"
+            android:textColor="#fff"
+            android:id="@+id/sumar"/>
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="-"
+            android:background="#b1abab"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/restar"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#514d4d"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

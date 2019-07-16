@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondonegro4">
+
+
+    <TextView
+        android:id="@+id/ttitulocontrol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Control de tu vivero"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/opcionesext"
+        android:layout_marginTop="35dp"
+        android:background="#595656">
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/estadosextension"
+        android:hint="Tus extensiones"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleridestado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginBottom="45dp"
+            android:background="#514d4d" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

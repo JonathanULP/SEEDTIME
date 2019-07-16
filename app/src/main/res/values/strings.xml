@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SEEDTIME</string>
+    <string name="plantas">Plantas</string>
+    <string name="control">Control</string>
+    <string name="instrucciones">Instrucciones</string>
+    <string name="contacto">Contacto</string>
+    <string name="Inicio" />
+    <string name="Adquirir"><u>Adquirir</u></string>
+</resources>

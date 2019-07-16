@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondeverde">
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="93dp"
+        android:background="@android:color/transparent"
+        android:text="Ingresar"
+        android:textColor="#ffffff"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="223dp"
+        android:width="60dp"
+        android:height="60dp"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/contraseñaid"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:width="60dp"
+        android:height="60dp"
+        android:backgroundTint="#ffffff"
+        android:ems="10"
+        android:hint="****"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="167dp"
+        android:layout_height="148dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="313dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/iso" />
+
+    <Button
+        android:id="@+id/olvidocontraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Olvidaste tu contraseña?"
+        android:textColor="#151d83"
+        android:textSize="10dp"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondonegro4"
+    android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tituloAPP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APLICACION"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+
+        <Switch
+            android:id="@+id/alertas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Recibir alertas      "
+            android:theme="@style/SwitchTheme"
+            android:textColor="#ffffff"
+            />
+
+    <Switch
+        android:id="@+id/automatizacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Automatizacion     "
+        android:fontFamily="sans-serif-smallcaps"
+        android:theme="@style/SwitchTheme"
+        android:textColor="#ffffff"/>
+
+    <Switch
+        android:id="@+id/notificaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Notificaciones      "
+        android:fontFamily="sans-serif-smallcaps"
+        android:theme="@style/SwitchTheme"
+        android:textColor="#ffffff"/>
+
+    <Switch
+        android:id="@+id/anuncio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Anuncio                 "
+        android:fontFamily="sans-serif-smallcaps"
+        android:theme="@style/SwitchTheme"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#514d4d"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tituloCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuenta"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+
+
+      <Button
+          android:id="@+id/administrar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Administrar Cuenta"
+          android:background="@android:color/transparent"
+          android:layout_gravity="center"
+          android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/cuentasvinculadas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuentas Vinculadas"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            />
+      <Button
+          android:id="@+id/usodedatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uso de datos del celular"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#514d4d"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tituloIdioma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idioma"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/idiomaespañol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Español"
+            android:checked="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:theme="@style/SwitchTheme"
+            android:textColor="#ffffff"/>
+
+        <RadioButton
+            android:id="@+id/idiomaingles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Ingles"
+            android:fontFamily="sans-serif-smallcaps"
+            android:theme="@style/SwitchTheme"
+            android:textColor="#ffffff"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="#514d4d"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="45dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

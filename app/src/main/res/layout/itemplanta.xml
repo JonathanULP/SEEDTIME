@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/fotoparaplanta"
+            android:layout_width="137dp"
+            android:layout_height="134dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" />
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tipodeplanta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Titulo"
+                android:textColor="#07fd03"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/descripciondeplanta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="7dp"
+                android:text="descripcion"
+                android:textColor="#f9f5f5" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Adquirir"
+                android:id="@+id/adquirir"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#212f8f"
+                android:fontFamily="sans-serif-smallcaps"
+
+                />
+
+        </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#514d4d"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

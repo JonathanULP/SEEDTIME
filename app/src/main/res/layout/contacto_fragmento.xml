@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondonegro4"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACERCA DE"
+        android:textColor="#bab7b7"
+        android:textSize="15dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Seedtime:"
+        android:textColor="#36ff03"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#acabab"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Esta aplicacion te permite tener tus propios cultivos ecológicos de forma economica y sustentable.
+Se trata de un sistema automatico de cultivo hidroponico domestico,no necesita mucho espacio ni conocimientos previos para su uso.
+Solo necesitas estar conectado a internet y el invernadero recuperara informacion que vos podes controlar y modificar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#514d4d"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Integrantes:"
+        android:textColor="#36ff03"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#acabab"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Somos un grupo de 5 estudiantes residentes en Argentina,San Luis.
+Cursamos la carrera Tecnicatura en Desarrollo de Software en la universidad de La Punta (ULP).
+Participamos del concurso TuApp con la finalidad de brindar este sistema el cual ayuda a mantener una alimentacion saludable y a la vez aportar con un grano de arena con respecto al medio ambiente evitando el uso de elementos y sustancias toxicas que son necesarias para mantener grandes cultivos"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#514d4d"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contactanos"
+        android:textColor="#bab7b7"
+        android:textSize="15dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+        <Button
+            android:id="@+id/btn_Pedro"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:background="@drawable/botoncontacto"
+            android:shadowColor="#054F0A"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Pedro Risma "
+            android:textColor="#FFFFFF"
+            android:drawableRight="@drawable/ic_chat"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"/>
+
+        <Button
+            android:id="@+id/btn_claudio"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:background="@drawable/botoncontacto"
+            android:shadowColor="#054F0A"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Claudio Suarez "
+            android:textColor="#FFFFFF"
+            android:drawableRight="@drawable/ic_chat"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"/>
+
+        <Button
+            android:id="@+id/btn_juan"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:background="@drawable/botoncontacto"
+            android:shadowColor="#054F0A"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Juan Tricarico"
+            android:textColor="#FFFFFF"
+            android:drawableRight="@drawable/ic_chat"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"/>
+
+
+    <Button
+        android:id="@+id/btn_jonathan"
+        android:layout_width="125dp"
+        android:layout_height="38dp"
+        android:background="@drawable/botoncontacto"
+        android:shadowColor="#054F0A"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Jonathan Montiel"
+        android:textColor="#FFFFFF"
+        android:drawableRight="@drawable/ic_chat"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"/>
+
+        <Button
+            android:id="@+id/btn_matias"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:background="@drawable/botoncontacto"
+            android:shadowColor="#054F0A"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Matias Torres "
+            android:textColor="#FFFFFF"
+            android:drawableRight="@drawable/ic_chat"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="#514d4d"
+            android:layout_marginBottom="50dp"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
